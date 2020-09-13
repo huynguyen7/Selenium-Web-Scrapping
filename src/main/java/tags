@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DriverInitializer	config/DriverInitializer.java	/^    public DriverInitializer() {$/;"	m	class:DriverInitializer
+DriverInitializer	config/DriverInitializer.java	/^public class DriverInitializer {$/;"	c
+FILENAME	templates/VNEXPRESS_Template.java	/^    private final static String FILENAME = "VNEXPRESS-news.txt";$/;"	f	class:VNEXPRESS_Template	file:
+MAX_PAGE	templates/VNEXPRESS_Template.java	/^    private final static int MAX_PAGE = 200; \/\/Cannot be smaller than 1$/;"	f	class:VNEXPRESS_Template	file:
+Parser	Parser.java	/^    private Parser() {}$/;"	m	class:Parser	file:
+Parser	Parser.java	/^    public Parser(Map<String, String> table, WebDriver driver) throws InterruptedException, IOException {$/;"	m	class:Parser
+Parser	Parser.java	/^public class Parser {$/;"	c
+SeleniumApplication	SeleniumApplication.java	/^public class SeleniumApplication {$/;"	c
+UrlSourceReader	config/UrlSourceReader.java	/^    public UrlSourceReader() throws IOException {$/;"	m	class:UrlSourceReader
+UrlSourceReader	config/UrlSourceReader.java	/^public class UrlSourceReader {$/;"	c
+VNEXPRESS_Template	templates/VNEXPRESS_Template.java	/^    public VNEXPRESS_Template(WebDriver driver, String url) throws IOException {$/;"	m	class:VNEXPRESS_Template
+VNEXPRESS_Template	templates/VNEXPRESS_Template.java	/^public class VNEXPRESS_Template extends WebTemplate {$/;"	c
+WebTemplate	templates/WebTemplate.java	/^public abstract class WebTemplate {$/;"	c
+appendData	templates/VNEXPRESS_Template.java	/^    private void appendData(WebDriver driver, String url) {$/;"	m	class:VNEXPRESS_Template	file:
+chromeDriver	config/DriverInitializer.java	/^    private ChromeDriver chromeDriver;$/;"	f	class:DriverInitializer	file:
+config	config/DriverInitializer.java	/^package config;$/;"	p
+config	config/UrlSourceReader.java	/^package config;$/;"	p
+data	templates/WebTemplate.java	/^    protected StringBuilder data;$/;"	f	class:WebTemplate
+driver	Parser.java	/^    private WebDriver driver;$/;"	f	class:Parser	file:
+driver	SeleniumApplication.java	/^    private static WebDriver driver;$/;"	f	class:SeleniumApplication	file:
+getChromeDriver	config/DriverInitializer.java	/^    public ChromeDriver getChromeDriver() {$/;"	m	class:DriverInitializer
+getData	templates/VNEXPRESS_Template.java	/^    public String getData() {$/;"	m	class:VNEXPRESS_Template
+getData	templates/WebTemplate.java	/^    public String getData() {$/;"	m	class:WebTemplate
+getInstance	config/DriverInitializer.java	/^    public static DriverInitializer getInstance() {$/;"	m	class:DriverInitializer
+getUrlsTable	config/UrlSourceReader.java	/^    public HashMap<String, String> getUrlsTable() {$/;"	m	class:UrlSourceReader
+initConfig	SeleniumApplication.java	/^    private static void initConfig() throws IOException {$/;"	m	class:SeleniumApplication	file:
+initializer	SeleniumApplication.java	/^    private static DriverInitializer initializer;$/;"	f	class:SeleniumApplication	file:
+main	SeleniumApplication.java	/^    public static void main(String args[]) throws IOException, InterruptedException {$/;"	m	class:SeleniumApplication
+parsing	Parser.java	/^    public void parsing() throws IOException {$/;"	m	class:Parser
+path	config/UrlSourceReader.java	/^    private final String path = "..\/urls.properties";$/;"	f	class:UrlSourceReader	file:
+processData	templates/VNEXPRESS_Template.java	/^    private void processData(WebDriver driver, List<String> articles) {$/;"	m	class:VNEXPRESS_Template	file:
+processTemplate	templates/VNEXPRESS_Template.java	/^    public void processTemplate(WebDriver driver) {$/;"	m	class:VNEXPRESS_Template
+processTemplate	templates/VNEXPRESS_Template.java	/^    public void processTemplate(WebDriver driver, String url) {$/;"	m	class:VNEXPRESS_Template
+processTemplate	templates/WebTemplate.java	/^    public abstract void processTemplate(WebDriver driver);$/;"	m	class:WebTemplate
+processTemplate	templates/WebTemplate.java	/^    public abstract void processTemplate(WebDriver driver, String url);$/;"	m	class:WebTemplate
+processTemplateP1	templates/VNEXPRESS_Template.java	/^    public void processTemplateP1(WebDriver driver) {$/;"	m	class:VNEXPRESS_Template
+readProperties	config/UrlSourceReader.java	/^    private Properties readProperties(String path) throws IOException {$/;"	m	class:UrlSourceReader	file:
+saveData	templates/WebTemplate.java	/^    protected void saveData(String fileName) throws IOException {$/;"	m	class:WebTemplate
+single_instance	config/DriverInitializer.java	/^    private static DriverInitializer single_instance = null;$/;"	f	class:DriverInitializer	file:
+table	Parser.java	/^    private Map<String, String> table;$/;"	f	class:Parser	file:
+table	config/UrlSourceReader.java	/^    private HashMap<String, String> table;$/;"	f	class:UrlSourceReader	file:
+templates	templates/VNEXPRESS_Template.java	/^package templates;$/;"	p
+templates	templates/WebTemplate.java	/^package templates;$/;"	p
+url	templates/VNEXPRESS_Template.java	/^    private final String url;$/;"	f	class:VNEXPRESS_Template	file:
+urlSourceReader	SeleniumApplication.java	/^    private static UrlSourceReader urlSourceReader;$/;"	f	class:SeleniumApplication	file:
+urlsTable	SeleniumApplication.java	/^    private static Map<String, String> urlsTable;$/;"	f	class:SeleniumApplication	file:
+waitPageLoadSuccess	templates/VNEXPRESS_Template.java	/^    private boolean waitPageLoadSuccess(WebDriver driver, String xpath, String url) {$/;"	m	class:VNEXPRESS_Template	file:
